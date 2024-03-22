@@ -1,0 +1,29 @@
+{
+    "ScanOffsets": [
+        {
+            "LineShift": 0.07999999821186066,
+            "Speed": 200,
+            "StartAdjust": 0
+        },
+        {
+            "LineShift": 0.3100000023841858,
+            "Speed": 400,
+            "StartAdjust": 0
+        },
+        {
+            "LineShift": 0.3400000035762787,
+            "Speed": 600,
+            "StartAdjust": 0
+        },
+        {
+            "LineShift": 0.3700000047683716,
+            "Speed": 800,
+            "StartAdjust": 0
+        },
+        {
+            "LineShift": 0.3700000047683716,
+            "Speed": 1000,
+            "StartAdjust": 0
+        }
+    ]
+}

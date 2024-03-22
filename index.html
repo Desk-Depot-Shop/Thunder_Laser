@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Everything Thunder Laser Related</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .tile-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .tile {
+            width: 150px;
+            height: 150px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            color: #fff;
+            text-align: center;
+            text-decoration: none;
+        }
+        .tile:hover {
+            transform: scale(1.1);
+        }
+
+        /* Each tile with a different background color */
+        .tile:nth-child(1) {
+            background-color: #f44336;
+        }
+        .tile:nth-child(2) {
+            background-color: #4caf50;
+        }
+        .tile:nth-child(3) {
+            background-color: #2196f3;
+        }
+        .tile:nth-child(4) {
+            background-color: #ff9800;
+        }
+        .tile:nth-child(5) {
+            background-color: #2196f3;
+        }
+        .tile:nth-child(6) {
+            background-color: #f3cd21;
+        }
+        .tile:nth-child(7) {
+            background-color: #21f34f;
+        }
+        .tile:nth-child(8) {
+            background-color: #f3f321;
+        }
+        /* Add more styles for additional tiles as needed */
+        .logo {
+            max-width: 200px;
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <a href="https://desk-depot-shop.github.io">
+            <img class="logo" src="desk-depot-logo.png" alt="Logo">
+        </a>
+    </div>
+    
+    <div class="tile-container">
+        <a class="tile" href="NovaSeriesUnifiedUser_sManual.pdf" target="_blank">Thunder Laser Manual</a>
+
+        <!-- Add more tiles as needed -->
+
+        <!-- Add downloadable file links -->
+        <a class="tile" href="Thunder_130_Watt_LightBurn_Materials_Library.clb" download>Thunder Laser Material Library Download</a>
+        <a class="tile" href="Offset_Scanning.lbso" download> Thunder Laser Offset Scanning Library</a>
+        <!-- Add more downloadable file links as needed -->
+    </div>
+</body>
+</html>
